@@ -6,14 +6,16 @@
 
 This exercise is a short simulation of the environment that we work with every day. More important than actually solving the problems, **we want to see how you go about solving problems** and learning about the technologies that are essential in your job.
 
-The goals of this challenge is to exhibit your working knowledge of Javascript, Postgres, Docker, and Git. We want you to use your problem solving and pattern recognition skills to come up with your own solution. **Throughout the process, your interviewer remains as a first class resource, and is available for any pairing and questions**.
+The goals of this challenge is to exhibit your working knowledge of Javascript, Postgres, Docker, and Git. We want you to use your problem solving and pattern recognition skills to come up with your own solution. **Throughout the process, your interviewer remains as a first class resource, and is available for pair pairing and any questions**. Do not hesitate to contact me at **matt@autovance.com**.
 
 ## Challenge Directions
 
-1. Make a private fork the repo and work on your fork
+1. Make a private clone the repo and work on your clone
+   1. Clone the repo locally and re-create it under your github profile as a private repository
+   2. Do not fork it, as the fork will be public
 2. Complete the code to achieve the described task
 3. Complete a small technical write up describing what you did, in `./description.md`
-4. Add **@matt-forster** to the private fork and email matt@autovance.com with your completion.
+4. Add **@matt-forster** to the private repository and email matt@autovance.com with your completion.
 
 ### Challenge Description
 
@@ -59,7 +61,7 @@ Along with a short description document describing the structure, create a set o
 
 We've created two folders, one representing the JS HTTP API and one representing the database schema and data.
 
-* `./api/index.js`: The entrypoint where you should start the API server and listen on the given port
+* `./api/index.js`: The entrypoint where you should start the API server
 * `./database/database-schema.sql`: The schema file that contains the table and relation definitions
 
 #### Docker setup
@@ -71,12 +73,19 @@ We've setup the network and image files for you in the `./api` and `./database` 
 * `docker:remove`: Will remove the built images. To make any changes to the database schema (`./database/database-schema.sql`), the image needs to be __removed and rebuilt__.
 * `docker:reset`: Will run the above scripts to reset if they are already running.
 
+Some important addresses that you can use on your local host:
+
+* API: `http://localhost:8888`
+* Database: `postgres://test:test@localhost:5432/challenge`
+
 ### Required Tools
 
-* git
-* github account
-* nodejs + npm (latest)
-* docker
+* [git](https://git-scm.com/)
+* [github account](https://github.com/)
+* [docker](https://www.docker.com/products/docker-desktop)
+* [nodejs](https://nodejs.org/en/) + package manager (latest)
+* postgres client (to connect on your localhost and inspect the database, I recommend <https://www.pgcli.com/>)
+* curl (to test your endpoints)
 
 ### Documentation, Library Recommendations
 

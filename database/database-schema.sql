@@ -10,4 +10,5 @@ CREATE TABLE make (
   make_name text
 );
 
--- Create the relationship between dealer and make here
+-- Create the relationship between dealer and make here, and rebuild the container to have
+-- the changes take effect

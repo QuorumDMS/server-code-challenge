@@ -20,5 +20,6 @@ services:
         - "com.autovance.local"
     environment:
       - PORT=8888
+      - HOST=0.0.0.0
     ports:
       - "8888:8888"
