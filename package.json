@@ -1,0 +1,12 @@
+{
+  "name": "server-code-challenge",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docker:start": "docker-compose -f docker-compose.yaml up --build",
+    "docker:stop": "docker stop code-challenge-database && docker stop code-challenge-api",
+    "docker:remove": "docker rm code-challenge-database && docker rm code-challenge-api",
+    "docker:reset": "yarn docker:remove; yarn docker:start"
+  }
+}

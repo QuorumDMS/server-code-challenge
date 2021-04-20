@@ -55,6 +55,22 @@ Along with a short description document describing the structure, create a set o
 4. List the makes that are related to a single dealership in the system
 5. A route that creates a relationship between a dealership and a make
 
+#### Filesystem Setup
+
+We've created two folders, one representing the JS HTTP API and one representing the database schema and data.
+
+* `./api/index.js`: The entrypoint where you should start the API server and listen on the given port
+* `./database/database-schema.sql`: The schema file that contains the table and relation definitions
+
+#### Docker setup
+
+We've setup the network and image files for you in the `./api` and `./database` folders. Along with that, we've included some scripts on the root that will help run the stack:
+
+* `docker:start`: Will pull, build and start the images.
+* `docker:stop`: Will stop the containers if they are running.
+* `docker:remove`: Will remove the built images. To make any changes to the database schema (`./database/database-schema.sql`), the image needs to be __removed and rebuilt__.
+* `docker:reset`: Will run the above scripts to reset if they are already running.
+
 ### Required Tools
 
 * git
