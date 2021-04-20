@@ -11,9 +11,9 @@ The goals of this challenge is to exhibit your working knowledge of Javascript, 
 ## Challenge Directions
 
 1. Make a private fork the repo and work on your fork
-2. Complete the code to achieve described task
-3. Complete a small technical write up describing what you did
-4. Add @matt-forster to the private fork and email matt@autovance.com with your completion.
+2. Complete the code to achieve the described task
+3. Complete a small technical write up describing what you did, in `./description.md`
+4. Add **@matt-forster** to the private fork and email matt@autovance.com with your completion.
 
 ### Challenge Description
 
