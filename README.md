@@ -2,7 +2,7 @@
 
 > Welcome and good luck!
 
-**This challenege is not pass / fail**. We want you to perform as well as you can in a situation where you are comfortable.
+**This challenge is not pass / fail**. We want you to perform as well as you can in a situation where you are comfortable.
 
 This exersise is indicitive of problems that we deal with every day. More important than actually solving the problems, **we want to see how you go about solving and learning about the technologies that are essential in your job**. This project is a setup representative of all our projects in some way, including testing and development frameworks.
 The goals of this challenege is to demonstrate your working knowledge of Docker, Javascript, and Git. We want you to use your problem solving and pattern recognition skills to come up with your own solution. Throughout the process, your interviewer remains as a first class resource, and is available for any questions.
