@@ -6,7 +6,7 @@
 
 This exercise is a short simulation of the environment that we work with every day. More important than actually solving the problems, **we want to see how you go about solving problems** and learning about the technologies that are essential in your job.
 
-The goals of this challenge is to exhibit your working knowledge of Javascript, Postgres, Docker, and Git. We want you to use your problem solving and pattern recognition skills to come up with your own solution. **Throughout the process, your interviewer remains as a first class resource, and is available for pair programming and any questions**. Do not hesitate to contact me at **matt@autovance.com**.
+The goals of this challenge is to exhibit your working knowledge of Javascript, Postgres, Docker, and Git. We want you to use your problem solving and pattern recognition skills to come up with your own solution. **Throughout the process your interviewer remains as a first class resource, and is available for pair programming and any questions**. Do not hesitate to contact me at **matt@autovance.com**.
 
 ## Challenge Directions
 
