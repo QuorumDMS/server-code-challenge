@@ -84,7 +84,7 @@ Some important addresses that you can use on your local host:
 
 * [git](https://git-scm.com/)
 * [github account](https://github.com/)
-* [docker](https://www.docker.com/products/docker-desktop)
+* [docker & docker compose](https://www.docker.com/products/docker-desktop)
 * [nodejs](https://nodejs.org/en/) + package manager (latest)
 * postgres client (to connect on your localhost and inspect the database, I recommend <https://www.pgcli.com/>)
 * curl (to test your endpoints)
