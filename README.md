@@ -72,7 +72,7 @@ We've setup the network and image files for you in the `./api` and `./database` 
 
 * `docker:start`: Will pull, build and start the images.
 * `docker:stop`: Will stop the containers if they are running.
-* `docker:remove`: Will remove the built images. To make any changes to the database schema (`./database/database-schema.sql`), the image needs to be __removed and rebuilt__.
+* `docker:remove`: Will remove the built images. To make any changes to the built database schema (`./database/database-schema.sql`), the image needs to be __removed and rebuilt__.
 * `docker:reset`: Will run the above scripts to reset if they are already running.
 
 Some important addresses that you can use on your local host:
