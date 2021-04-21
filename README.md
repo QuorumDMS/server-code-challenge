@@ -11,7 +11,7 @@ The goals of this challenge is to exhibit your working knowledge of Javascript, 
 ## Challenge Directions
 
 1. Make a private clone the repo and work on your clone
-   1. Clone the repo locally and re-create it under your github profile as a private repository
+   1. Click 'use this template' on the top right of the github page and create a private clone
    2. Do not fork it, as the fork will be public
 2. Complete the code to achieve the described task
 3. Complete a small technical write up describing what you did, in `./description.md`
