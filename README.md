@@ -25,7 +25,7 @@ The goal is to create a working NodeJS API that runs in Docker and communicates 
 
 In the automotive industry a dealership can sell multiple vehicle makes, like Honda and Acura, often times on the same lot. We have to manage the relationship between a dealer and the vehicles available to them.
 
-The goal is to list a set of dealers and a set makes, and create an API to connect the two. The database will have the two models already loaded with some data. We need to create the relationship between them, and the API to manipulate that relationship.
+The goal is to list a set of dealers and a set of makes, and create an API to connect the two. The database will have the two models already loaded with some data. We need to create the relationship between them, and the API to manipulate that relationship.
 
 #### Data Models
 
