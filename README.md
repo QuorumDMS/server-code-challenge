@@ -53,11 +53,11 @@ You will need to come up for the model that represents the relationship between 
 
 Along with a short description document describing the structure, create a set of routes that:
 
-1. Lists the available dealerships in the system
-2. Lists the available makes in the system
-3. Returns a single dealership in the system
-4. Lists the makes that are related to a single dealership in the system
-5. Creates a relationship between a dealership and a make
+* Lists the available dealerships in the system
+* Lists the available makes in the system
+* Returns a single dealership in the system
+* Lists the makes that are related to a single dealership in the system
+* Creates a relationship between a dealership and a make
 
 ### Filesystem Setup
 
