@@ -19,7 +19,7 @@ The goal of this challenge is to exhibit your working knowledge of Javascript, P
 
 ### Challenge Description
 
-The goal is to create a working NodeJS API that runs in Docker and communicates with a postgres database. This repo has the framework and network already created through docker, so your task is to fill out the program and run it.
+The goal is to create a working NodeJS API that runs in Docker and communicates with a Postgres database. This repo has the framework and network already created through docker, so your task is to fill out the program and run it.
 
 #### Create an API that lists and manipulates dealership and make relationships
 
