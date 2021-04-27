@@ -18,5 +18,4 @@ WORKDIR /api
 # Install
 RUN yarn
 
-# Run - requires "SERVICE" environment variable at runtime
 CMD [ "sh", "-c", "node index.js" ]
