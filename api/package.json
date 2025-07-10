@@ -4,8 +4,5 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "dependencies": {
-    "express": "^5.1.0",
-    "node-pg": "1.0.1"
-  }
+  "dependencies": {}
 }
