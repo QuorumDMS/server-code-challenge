@@ -12,3 +12,37 @@
   port: 5432,
 }
 */
+
+const express = require('express');
+const { Pool } = require('pg');
+const app = express();
+
+
+const port = process.env.PORT.toString();
+
+const pool = new Pool({
+  user: 'test',
+  host: 'database',
+  database: 'challenge',
+  password: 'test',
+  port: `${port}` || '5432', // Default to 5432 if PORT is not set
+});
+
+app.get('/', (req, res) => {
+  res.send('Welcome to the Dealer API');
+});
+
+app.get('/dealers', async (req, res) => {
+  try {
+    const result = await pool.query('SELECT * FROM dealer');
+    res.send(result.rows);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+const PORT = process.env.PORT || 8888;
+const HOST = process.env.HOST || '0.0.0.0';
+app.listen(PORT, HOST, () => {
+  console.log(`Server running on http://${HOST}:${PORT}`);
+});
